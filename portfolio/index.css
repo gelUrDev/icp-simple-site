@@ -1,0 +1,44 @@
+body{
+    padding: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Landing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   /* background-color: aqua;*/
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 60px;
+}
+
+.text1{
+    font-size: 1rem;
+    
+}
+.name{
+    font-size: 3rem;
+}
+
+.left, .right{
+   /* background-color: bisque;*/
+    margin: 30px;
+}
+
+.left{
+    justify-items: end;
+    padding-top: 30px;
+}
+
+.desc{
+    text-align: end;
+}
+
+.info{
+    background-color: antiquewhite;
+    margin-top: 50px;
+}
